@@ -41,5 +41,12 @@
 	</dependencies>
 	<build>
 		<finalName>bootsample</finalName>
+		<plugins>
+      <plugin>
+        <groupId>com.google.appengine</groupId>
+        <artifactId>appengine-maven-plugin</artifactId>
+        <version>1.9.60</version>
+      </plugin>
+    </plugins>
 	</build>
 </project>
